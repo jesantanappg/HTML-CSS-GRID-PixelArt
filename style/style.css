@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --orange-hair: #aa6239;
     --pele-brancaluz: #f2d3bb;
     --pele-brancasombra: #e4b085;
@@ -14,7 +14,7 @@
     --azulcalca: #283a44;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ body{
     padding: 0.6rem;
 }
 
-.grade div:nth-child(even){
+.grade div:nth-child(even) {
     /*background-color: aqua;*/
 }
 
@@ -45,19 +45,19 @@ body{
     grid-column: 1/3;
 }
 
-.laranja{
+.laranja {
     background-color: var(--orange-hair);
 }
 
-.marronclaro{
+.marronclaro {
     background-color: var(--marrom-claro);
 }
 
-.marromescuro{
+.marromescuro {
     background-color: var(--marrom-camiseta);
 }
 
-.peleluz{
+.peleluz {
     background-color: var(--pele-brancaluz);
 }
 
@@ -65,11 +65,11 @@ body{
     background-color: var(--pele-brancasombra);
 }
 
-.calca{
+.calca {
     background-color: var(--azulcalca);
 }
 
-.contorno{
+.contorno {
     background-color: #060606;
 }
 
