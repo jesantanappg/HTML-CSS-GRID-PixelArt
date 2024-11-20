@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grade div {
+    background-color: deepskyblue;
+    padding: 0.6rem;
+}
+
+.grade div:nth-child(even){
+    background-color: aqua;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    gap: 5px;
+}
+
+#item1 {
+    background-color: chartreuse;
+    grid-row: 2;
+    grid-column: 1/3;
+}
