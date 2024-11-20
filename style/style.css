@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    background-color: slategray;
+}
+
 .grade div {
     background-color: deepskyblue;
     padding: 0.6rem;
@@ -17,6 +24,7 @@
     grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
     grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
     gap: 5px;
+    font-size: 8pt;
 }
 
 #item1 {
